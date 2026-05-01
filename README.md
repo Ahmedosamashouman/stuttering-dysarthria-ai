@@ -195,12 +195,6 @@ uvicorn api.main_deploy:app --host 0.0.0.0 --port 7860
   * Hugging Face Spaces (Docker)
 * API accessible remotely
 
----
-
-## ⚠️ Disclaimer
-
-This project is an academic prototype for research purposes only.
-It is **not a medical diagnosis tool**.
 
 ---
 
@@ -213,17 +207,6 @@ It is **not a medical diagnosis tool**.
 
 ---
 
-## 👤 Author
 
-Ahmed Osama
-AI Engineer | ML | NLP | Full-Stack AI Systems
-
----
-
-## ⭐ Future Work
-
-* Longer audio (5–10 sec)
-* Real-time streaming inference
-* Multi-class speech disorders
 * Model optimization (ONNX / TensorRT)
 * Larger dataset scaling
