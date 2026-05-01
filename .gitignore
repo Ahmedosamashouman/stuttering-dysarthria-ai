@@ -1,0 +1,60 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Data and generated outputs
+data/raw/
+data/external/
+data/interim/
+data/processed/features/
+outputs/
+_archive_unselected_models/
+_archive_unselected_files/
+cleanup_review/
+
+# Model/checkpoint files - do not push to GitHub
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.safetensors
+
+# Hugging Face upload bundle contains large deployment artifacts
+hf_space_upload/
+
+# Flutter / Dart
+app_flutter/build/
+app_flutter/.dart_tool/
+app_flutter/.flutter-plugins
+app_flutter/.flutter-plugins-dependencies
+app_flutter/android/.gradle/
+app_flutter/android/local.properties
+app_flutter/ios/Pods/
+app_flutter/ios/.symlinks/
+app_flutter/macos/Flutter/ephemeral/
+app_flutter/linux/flutter/ephemeral/
+app_flutter/windows/flutter/ephemeral/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
